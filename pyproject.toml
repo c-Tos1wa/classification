@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "class"
+version = "0.1.0"
+description = ""
+authors = ["c-Tos1wa <cristoshiwassaki@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyterlab = "^4.0.2"
+matplotlib = "^3.7.1"
+graphviz = "^0.20.1"
+scikit-learn = "^1.2.2"
+seaborn = "^0.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
